@@ -1,0 +1,25 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.5.1">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="src\Game.Client\Game.Client.fsproj" />
+        <ProjectReference Include="src\Game.Server\Game.Server.fsproj" />
+        <ProjectReference Include="src\Game.Shared\Game.Shared.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="src\GodotAdapters.Test\**" />
+      <Compile Remove="addons\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="src\GodotAdapters.Test\**" />
+      <EmbeddedResource Remove="addons\**" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://xw37p7wxfl7e"]
+
+[ext_resource type="Script" uid="uid://x3v8tklogcem" path="res://src/GodotAdapters/TestNode.cs" id="1_brqmi"]
+
+[node name="main" type="Node3D"]
+script = ExtResource("1_brqmi")

@@ -1,0 +1,16 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <PackageId>Game.Server</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Ecs.fs" />
+    <Compile Include="Game.fs" />
+    <Compile Include="GameBinding.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Shared\Game.Shared.fsproj" />
+  </ItemGroup>
+</Project>

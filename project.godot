@@ -10,13 +10,20 @@ config_version=5
 
 [application]
 
-config/name="SpaceStation13D"
-config/features=PackedStringArray("4.5", "GL Compatibility")
-config/icon="res://icon.svg"
+config/name="Space Station 13D"
+run/main_scene="uid://xw37p7wxfl7e"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="SpaceStation13D"
+config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
+config/icon="uid://defxgjh5571xm"
 
 [dotnet]
 
-project/assembly_name="SpaceStation13D"
+project/assembly_name="GodotAdapters"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
 
 [rendering]
 

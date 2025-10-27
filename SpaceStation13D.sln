@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Server", "src\Game.Server\Game.Server.fsproj", "{BC2A5258-5E72-428D-8B09-13FE026B228F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Client", "src\Game.Client\Game.Client.fsproj", "{F0CADF21-957D-4112-89AA-4980E3D8BE59}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Shared", "src\Game.Shared\Game.Shared.fsproj", "{BA9997B2-A12F-46E2-928E-F0C0559E3011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotAdapters", "GodotAdapters.csproj", "{A763DF34-C1FC-432C-A7C4-897A26A91662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EC2AAB-146F-45B3-914F-52BFA64D9926}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Shared.Test", "src\Game.Shared.Test\Game.Shared.Test.fsproj", "{BBFFE247-87CD-4DF0-B85D-49408F9E073E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Client.Test", "src\Game.Client.Test\Game.Client.Test.fsproj", "{CBCA609A-1D49-4E5C-91F7-28762B27C3EA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Game.Server.Test", "src\Game.Server.Test\Game.Server.Test.fsproj", "{0F6D2054-4C6C-4098-88B5-A92C30F1250E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo Files", "Repo Files", "{63716A20-7540-4B8A-952D-7AE13CDDC0A8}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Godot Files", "Godot Files", "{CB7907A4-2704-4725-B313-7F45239A4D59}"
+	ProjectSection(SolutionItems) = preProject
+		project.godot = project.godot
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC2A5258-5E72-428D-8B09-13FE026B228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2A5258-5E72-428D-8B09-13FE026B228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2A5258-5E72-428D-8B09-13FE026B228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2A5258-5E72-428D-8B09-13FE026B228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CADF21-957D-4112-89AA-4980E3D8BE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CADF21-957D-4112-89AA-4980E3D8BE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CADF21-957D-4112-89AA-4980E3D8BE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CADF21-957D-4112-89AA-4980E3D8BE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9997B2-A12F-46E2-928E-F0C0559E3011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9997B2-A12F-46E2-928E-F0C0559E3011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9997B2-A12F-46E2-928E-F0C0559E3011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9997B2-A12F-46E2-928E-F0C0559E3011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A763DF34-C1FC-432C-A7C4-897A26A91662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A763DF34-C1FC-432C-A7C4-897A26A91662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A763DF34-C1FC-432C-A7C4-897A26A91662}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A763DF34-C1FC-432C-A7C4-897A26A91662}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BBFFE247-87CD-4DF0-B85D-49408F9E073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFFE247-87CD-4DF0-B85D-49408F9E073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFFE247-87CD-4DF0-B85D-49408F9E073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFFE247-87CD-4DF0-B85D-49408F9E073E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCA609A-1D49-4E5C-91F7-28762B27C3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCA609A-1D49-4E5C-91F7-28762B27C3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCA609A-1D49-4E5C-91F7-28762B27C3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCA609A-1D49-4E5C-91F7-28762B27C3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6D2054-4C6C-4098-88B5-A92C30F1250E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6D2054-4C6C-4098-88B5-A92C30F1250E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6D2054-4C6C-4098-88B5-A92C30F1250E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6D2054-4C6C-4098-88B5-A92C30F1250E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBFFE247-87CD-4DF0-B85D-49408F9E073E} = {02EC2AAB-146F-45B3-914F-52BFA64D9926}
+		{CBCA609A-1D49-4E5C-91F7-28762B27C3EA} = {02EC2AAB-146F-45B3-914F-52BFA64D9926}
+		{0F6D2054-4C6C-4098-88B5-A92C30F1250E} = {02EC2AAB-146F-45B3-914F-52BFA64D9926}
+	EndGlobalSection
+EndGlobal
